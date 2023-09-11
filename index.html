@@ -1,0 +1,52 @@
+           <!------------------- SIGN UP ------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META DATA LINK -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
+    <title>Notes</title>
+    <!-- FAVICON LINK -->
+    <link rel="icon" href="https://files.softicons.com/download/object-icons/notes-icons-by-umar123/png/512/Notes.png" >
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- BOOTSTRAP LINK -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+   <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <!-- SIGNUP FORM -->
+    <div class="container1">
+        <div class="card1">
+            <h2 class="text-center sign-head">SignUp</h2>
+            <form action="#">
+                <!-- username -->
+               <div class="form-group">
+                 <label class="labels" for="username"> Username:</label>
+                 <input type="text" class="form-control" id="username" name="username" autocomplete="off" placeholder="Your Username..."/>
+               </div>
+               <!-- email -->
+               <div class="form-group">
+                <label class="labels" for="email"> Email:</label>
+                <input type="email" class="form-control" id="email" name="email" autocomplete="off" placeholder="Your Email..."/>
+              </div>
+              <!-- password -->
+              <div class="form-group">
+                <label class="labels" for="password"> Password:</label>
+                <input type="password" class="form-control" id="password" name="password" autocomplete="off" placeholder="Your Password..."/>
+              </div>
+              <!-- btn -->
+              <div class="btn_groups mt-4">
+                <button type="button" onclick="saveData()" class="btn" id="save_btn">Submit</button>
+                <button type="reset" class="btn ms-4" id="reset_btn">Reset</button>
+                <button type="button" class="btn ms-4" onclick="goTo_signIn()">SignIn</button>
+              </div>
+            </form>
+        </div>
+    </div>
+    <!-- JS LINK -->
+    <script src="js/main.js"></script>
+</body>
+</html>
